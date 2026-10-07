@@ -1,0 +1,69 @@
+# Все параметры расчёта. Любое число в отчёте получается командой `make all` с этим файлом.
+seed: 42
+
+paths:
+  raw_zip: data/raw/hackathonlicence.zip          # архив со страницы конкурса
+  raw_dir: data/raw/hackathonlicence
+  reference: data/reference/mo_reference.csv      # territory_id -> название, регион, координаты, население
+  national: data/external/sberindex_national_spending.csv   # СберИндекс, расходы по России (млрд руб./мес.)
+  events: data/events/events.csv                  # календарь событий (ЦБ, режимы ЧС)
+  out: outputs
+
+data:
+  total_category: "Все категории"
+  categories: ["Все категории", "Продовольствие", "Здоровье", "Маркетплейсы",
+               "Общественное питание", "Транспорт"]
+  min_months: 24                                  # берём только МО с полной историей
+  # какой ряд СберИндекса по России использовать как сезонный ориентир для категории
+  national_map:
+    "Все категории": "Всего"
+    "Продовольствие": "Продовольственные товары"
+    "Общественное питание": "Общественное питание"
+    "Маркетплейсы": "Непродовольственные товары"
+    "Здоровье": "Всего"
+    "Транспорт": "Услуги"
+
+forecast:
+  origins_from: "2023-12"                         # первая точка прогноза (12 мес. истории)
+  origins_to: "2024-11"
+  horizons_eval: [1, 3, 6, 12]
+  max_h: 12
+  level_months: 3                                 # сколько последних месяцев усредняем для уровня МО
+  region_shrink_k: 10                             # сжатие региональной сезонности к общей: n/(n+k)
+  prophet:
+    n_jobs: 2
+  lgbm:
+    n_estimators: 300
+    learning_rate: 0.03
+    num_leaves: 31
+    min_child_samples: 50
+    subsample: 0.8
+    subsample_freq: 1
+    colsample_bytree: 0.8
+    reg_lambda: 1.0
+
+detect:
+  eval_from: "2024-03"                            # первый месяц, в котором считаем тревоги
+  cusum_k: 0.5
+  ewma_lambda: 0.3
+  bocpd_hazard: 0.05
+  neighbours_km: 60                               # радиус «соседей» по автодорогам для пространственного детектора
+
+synth:
+  share_shocked: 0.10                             # доля МО, получающих шок в одном прогоне
+  sizes: [-0.20, -0.10, -0.05, 0.05, 0.10, 0.20]   # провалы и всплески
+  shapes: ["step", "ramp"]
+  ramp_len: 3
+  onsets: ["2024-03", "2024-05", "2024-07", "2024-09"]
+  repeats: 5
+  detect_window: 3                                # шок «пойман», если тревога в первые 3 месяца
+  cluster_share: 0.5                              # доля шоков, задевающих и соседей (пространственные)
+
+budget:
+  far_levels: [0.01, 0.03, 0.05]
+  k_list: [10, 20, 50]
+  cost_miss: 10.0                                 # цена пропуска шока (условные единицы)
+  cost_false_alarm: 1.0                           # цена одной ложной тревоги
+
+case:
+  placebo_draws: 2000

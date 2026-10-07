@@ -1,0 +1,5 @@
+# Необязательно: фундаментальная модель Chronos-Bolt (CPU). Веса скачиваются с Hugging Face.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+chronos-forecasting>=1.5
+huggingface_hub>=0.23

@@ -1,0 +1,14 @@
+# Python 3.11. Версии — те, на которых получены все числа отчёта.
+numpy==2.4.4
+pandas==3.0.2
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+lightgbm==4.7.0
+prophet==1.4.0
+cmdstanpy==1.3.0
+ruptures==1.1.10
+matplotlib==3.10.9
+PyYAML==6.0.3
+reportlab==4.4.10
+pytest>=8

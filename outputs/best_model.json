@@ -1,0 +1,17 @@
+{
+ "best": "ensemble_fm",
+ "ranking": {
+  "ensemble_fm": 469.8,
+  "ensemble": 488.8,
+  "factor_region": 512.3,
+  "factor_panel": 516.8,
+  "chronos_bolt": 530.5,
+  "snaive_drift": 539.4,
+  "lgbm": 545.1,
+  "lgbm_no_events": 547.4,
+  "factor_national": 648.4,
+  "naive": 988.7,
+  "snaive": 1323.5,
+  "chronos_bolt_raw": 1627.5
+ }
+}

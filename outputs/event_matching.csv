@@ -1,0 +1,26 @@
+event_type,region,municipality,month,verified,territory_id,in_panel
+emergency_municipal,Оренбургская область,Орск,2024-04,yes,1673.0,True
+emergency_municipal,Оренбургская область,Оренбург,2024-04,yes,1665.0,True
+emergency_municipal,Оренбургская область,Акбулакский,2024-04,yes,1679.0,True
+emergency_municipal,Оренбургская область,Курманаевский,2024-04,yes,1690.0,True
+emergency_municipal,Оренбургская область,Новосергиевский,2024-04,yes,1693.0,True
+emergency_municipal,Оренбургская область,Кваркенский,2024-04,yes,1688.0,True
+emergency_municipal,Оренбургская область,Адамовский,2024-04,yes,1678.0,True
+emergency_municipal,Оренбургская область,Сорочинский,2024-04,yes,1675.0,True
+emergency_municipal,Оренбургская область,Оренбургский,2024-04,yes,,False
+emergency_municipal,Оренбургская область,Бугуруслан,2024-04,yes,1667.0,True
+emergency_municipal,Оренбургская область,Красногвардейский,2024-04,yes,1689.0,True
+emergency_municipal,Оренбургская область,Асекеевский,2024-04,yes,1681.0,True
+emergency_municipal,Оренбургская область,Домбаровский,2024-04,yes,1686.0,True
+emergency_municipal,Оренбургская область,Новотроицк,2024-04,yes,1672.0,True
+emergency_municipal,Оренбургская область,Кувандыкский,2024-04,yes,1670.0,True
+emergency_municipal,Оренбургская область,Бузулук,2024-04,yes,1668.0,True
+emergency_municipal,Оренбургская область,Тоцкий,2024-04,yes,1704.0,True
+emergency_named,Курганская область,Звериноголовский,2024-04,media,1339.0,True
+emergency_named,Курганская область,Курган,2024-04,media,1333.0,True
+emergency_named,Тюменская область,Ишимский,2024-04,media,2203.0,True
+emergency_named,Тюменская область,Ишим,2024-04,media,2192.0,True
+emergency_named,Тюменская область,Ялуторовск,2024-04,media,2194.0,True
+emergency_named,Тюменская область,Упоровский,2024-04,media,2212.0,True
+emergency_named,Тюменская область,Викуловский,2024-04,media,2200.0,True
+emergency_named,Тюменская область,Абатский,2024-04,media,2195.0,True

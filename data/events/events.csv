@@ -1,0 +1,47 @@
+date_known,event_type,region,municipality,detail,source_url,verified
+2023-02-10,cbr_rate,Россия,,сохранение 7.50,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-03-17,cbr_rate,Россия,,сохранение 7.50,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-04-28,cbr_rate,Россия,,сохранение 7.50,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-06-09,cbr_rate,Россия,,сохранение 7.50,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-07-21,cbr_rate,Россия,,повышение до 8.50,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-08-15,cbr_rate,Россия,,внеочередное повышение до 12.00,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-09-15,cbr_rate,Россия,,повышение до 13.00,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-10-27,cbr_rate,Россия,,повышение до 15.00,https://www.cbr.ru/hd_base/KeyRate/,yes
+2023-12-15,cbr_rate,Россия,,повышение до 16.00,https://www.cbr.ru/hd_base/KeyRate/,yes
+2024-02-16,cbr_rate,Россия,,сохранение 16.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-03-22,cbr_rate,Россия,,сохранение 16.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-04-26,cbr_rate,Россия,,сохранение 16.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-06-07,cbr_rate,Россия,,сохранение 16.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-07-26,cbr_rate,Россия,,повышение до 18.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-09-13,cbr_rate,Россия,,повышение до 19.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-10-25,cbr_rate,Россия,,повышение до 21.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-12-20,cbr_rate,Россия,,сохранение 21.00,https://www.cbr.ru/dkp/mp_dec/decision_key_rate/,yes
+2024-04-04,emergency_regional,Оренбургская область,,режим ЧС регионального характера (указ № 103-ук от 04.04.2024),https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-07,emergency_federal,Оренбургская область,,ЧС федерального характера (паводок),https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Орск,постановление № 1074-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-03,emergency_municipal,Оренбургская область,Оренбург,постановление № 28-п от 03.04.2024 (с. Краснохолм),https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-02,emergency_municipal,Оренбургская область,Акбулакский,постановление № 220-п от 02.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Курманаевский,постановление № 149-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Новосергиевский,постановление № 244-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Кваркенский,постановление № 244-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Адамовский,постановление № 369-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Сорочинский,постановление № 530-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Оренбургский,постановление № 1046-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Бугуруслан,постановление № 331-па от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Красногвардейский,постановление № 263-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Асекеевский,постановление № 239-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Домбаровский,постановление № 274-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-06,emergency_municipal,Оренбургская область,Новотроицк,постановление № 2536-п от 06.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-06,emergency_municipal,Оренбургская область,Кувандыкский,постановление № 505-п от 06.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-05,emergency_municipal,Оренбургская область,Бузулук,постановление № 920-п от 05.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-04,emergency_municipal,Оренбургская область,Тоцкий,постановление № 294-п от 04.04.2024,https://56.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5252131,yes
+2024-04-08,emergency_regional,Курганская область,,режим ЧС регионального характера (паводок),https://istories.media/news/2024/04/08/v-kurganskoi-oblasti-vveli-rezhim-chs-tsentr-kurgana-mozhet-bit-podtoplen/,media
+2024-04-08,emergency_named,Курганская область,Звериноголовский,назван в сообщении губернатора как зона первой волны,https://istories.media/news/2024/04/08/v-kurganskoi-oblasti-vveli-rezhim-chs-tsentr-kurgana-mozhet-bit-podtoplen/,media
+2024-04-08,emergency_named,Курганская область,Курган,назван как зона возможного подтопления,https://istories.media/news/2024/04/08/v-kurganskoi-oblasti-vveli-rezhim-chs-tsentr-kurgana-mozhet-bit-podtoplen/,media
+2024-04-08,emergency_regional,Тюменская область,,режим ЧС регионального характера (паводок),https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Ишимский,эвакуация сёл Лайкова и Бутырки,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Ишим,назван в зоне наибольшего риска,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Ялуторовск,назван в зоне наибольшего риска,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Упоровский,назван в зоне наибольшего риска,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Викуловский,назван в зоне наибольшего риска,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
+2024-04-14,emergency_named,Тюменская область,Абатский,назван в зоне наибольшего риска,https://rtvi.com/news/v-tyumenskoj-oblasti-nachali-evakuacziyu-zhitelej-dereven-kotorym-grozit-zatoplenie/,media
